@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5504A4611D3A19DA000F3156 /* InfoScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5504A4601D3A19DA000F3156 /* InfoScene.sks */; };
+		5504A4631D3A19E9000F3156 /* InfoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504A4621D3A19E9000F3156 /* InfoScene.swift */; };
+		550E37CC1D55D50100C47804 /* ach.png in Resources */ = {isa = PBXBuildFile; fileRef = 550E37CB1D55D50100C47804 /* ach.png */; };
+		554622D81D42B8DD0007D260 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554622D71D42B8DD0007D260 /* Storage.swift */; };
+		55482FB01D3949D300B65E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55482FAF1D3949D300B65E65 /* AppDelegate.swift */; };
+		55482FB21D3949D300B65E65 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 55482FB11D3949D300B65E65 /* GameScene.sks */; };
+		55482FB41D3949D300B65E65 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55482FB31D3949D300B65E65 /* GameScene.swift */; };
+		55482FB61D3949D300B65E65 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55482FB51D3949D300B65E65 /* GameViewController.swift */; };
+		55482FB91D3949D300B65E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55482FB71D3949D300B65E65 /* Main.storyboard */; };
+		55482FBB1D3949D300B65E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55482FBA1D3949D300B65E65 /* Assets.xcassets */; };
+		55482FBE1D3949D300B65E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55482FBC1D3949D300B65E65 /* LaunchScreen.storyboard */; };
+		55482FC91D3949D300B65E65 /* NekoIslandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55482FC81D3949D300B65E65 /* NekoIslandTests.swift */; };
+		55482FD41D3949D300B65E65 /* NekoIslandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55482FD31D3949D300B65E65 /* NekoIslandUITests.swift */; };
+		55482FE21D394B3700B65E65 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55482FE11D394B3700B65E65 /* MSButtonNode.swift */; };
+		5549AAA51D555EC400271B80 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5549AAA41D555EC400271B80 /* GameKit.framework */; };
+		55A8343E1D39573600794370 /* IntroScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 55A8343D1D39573600794370 /* IntroScene.sks */; };
+		55A834421D39574C00794370 /* IntroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A834411D39574C00794370 /* IntroScene.swift */; };
+		55E966821D3F0C970029A4AC /* DeathOverlay.sks in Resources */ = {isa = PBXBuildFile; fileRef = 55E966811D3F0C970029A4AC /* DeathOverlay.sks */; };
+		55FCED5C1D4FB2A800691723 /* bensound-acousticbreeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55FCED5B1D4FB2A800691723 /* bensound-acousticbreeze.mp3 */; };
+		55FCED5E1D4FBDA500691723 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FCED5D1D4FBDA500691723 /* SKTAudio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55482FC51D3949D300B65E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55482FA41D3949D300B65E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55482FAB1D3949D300B65E65;
+			remoteInfo = NekoIsland;
+		};
+		55482FD01D3949D300B65E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55482FA41D3949D300B65E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55482FAB1D3949D300B65E65;
+			remoteInfo = NekoIsland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5504A4601D3A19DA000F3156 /* InfoScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = InfoScene.sks; sourceTree = "<group>"; };
+		5504A4621D3A19E9000F3156 /* InfoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoScene.swift; sourceTree = "<group>"; };
+		550E37CB1D55D50100C47804 /* ach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ach.png; sourceTree = "<group>"; };
+		554622D71D42B8DD0007D260 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		55482FAC1D3949D300B65E65 /* NekoIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekoIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55482FAF1D3949D300B65E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55482FB11D3949D300B65E65 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		55482FB31D3949D300B65E65 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		55482FB51D3949D300B65E65 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		55482FB81D3949D300B65E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55482FBA1D3949D300B65E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55482FBD1D3949D300B65E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55482FBF1D3949D300B65E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55482FC41D3949D300B65E65 /* NekoIslandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NekoIslandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55482FC81D3949D300B65E65 /* NekoIslandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoIslandTests.swift; sourceTree = "<group>"; };
+		55482FCA1D3949D300B65E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55482FCF1D3949D300B65E65 /* NekoIslandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NekoIslandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55482FD31D3949D300B65E65 /* NekoIslandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoIslandUITests.swift; sourceTree = "<group>"; };
+		55482FD51D3949D300B65E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55482FE11D394B3700B65E65 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		5549AAA41D555EC400271B80 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		55A8343D1D39573600794370 /* IntroScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = IntroScene.sks; sourceTree = "<group>"; };
+		55A834411D39574C00794370 /* IntroScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroScene.swift; path = ../IntroScene.swift; sourceTree = "<group>"; };
+		55E966811D3F0C970029A4AC /* DeathOverlay.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DeathOverlay.sks; sourceTree = "<group>"; };
+		55FCED5B1D4FB2A800691723 /* bensound-acousticbreeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-acousticbreeze.mp3"; sourceTree = "<group>"; };
+		55FCED5D1D4FBDA500691723 /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55482FA91D3949D300B65E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5549AAA51D555EC400271B80 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482FC11D3949D300B65E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482FCC1D3949D300B65E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55482FA31D3949D300B65E65 = {
+			isa = PBXGroup;
+			children = (
+				5549AAA41D555EC400271B80 /* GameKit.framework */,
+				55482FAE1D3949D300B65E65 /* NekoIsland */,
+				55482FC71D3949D300B65E65 /* NekoIslandTests */,
+				55482FD21D3949D300B65E65 /* NekoIslandUITests */,
+				55482FAD1D3949D300B65E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55482FAD1D3949D300B65E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55482FAC1D3949D300B65E65 /* NekoIsland.app */,
+				55482FC41D3949D300B65E65 /* NekoIslandTests.xctest */,
+				55482FCF1D3949D300B65E65 /* NekoIslandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55482FAE1D3949D300B65E65 /* NekoIsland */ = {
+			isa = PBXGroup;
+			children = (
+				55482FAF1D3949D300B65E65 /* AppDelegate.swift */,
+				55CB4DEF1D3F0E7B003581E6 /* Scenes */,
+				55E966811D3F0C970029A4AC /* DeathOverlay.sks */,
+				55482FB51D3949D300B65E65 /* GameViewController.swift */,
+				55482FE11D394B3700B65E65 /* MSButtonNode.swift */,
+				55482FB71D3949D300B65E65 /* Main.storyboard */,
+				55FCED5B1D4FB2A800691723 /* bensound-acousticbreeze.mp3 */,
+				55482FBA1D3949D300B65E65 /* Assets.xcassets */,
+				550E37CB1D55D50100C47804 /* ach.png */,
+				55482FBC1D3949D300B65E65 /* LaunchScreen.storyboard */,
+				55482FBF1D3949D300B65E65 /* Info.plist */,
+				554622D71D42B8DD0007D260 /* Storage.swift */,
+				55FCED5D1D4FBDA500691723 /* SKTAudio.swift */,
+			);
+			path = NekoIsland;
+			sourceTree = "<group>";
+		};
+		55482FC71D3949D300B65E65 /* NekoIslandTests */ = {
+			isa = PBXGroup;
+			children = (
+				55482FC81D3949D300B65E65 /* NekoIslandTests.swift */,
+				55482FCA1D3949D300B65E65 /* Info.plist */,
+			);
+			path = NekoIslandTests;
+			sourceTree = "<group>";
+		};
+		55482FD21D3949D300B65E65 /* NekoIslandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55482FD31D3949D300B65E65 /* NekoIslandUITests.swift */,
+				55482FD51D3949D300B65E65 /* Info.plist */,
+			);
+			path = NekoIslandUITests;
+			sourceTree = "<group>";
+		};
+		55CB4DEF1D3F0E7B003581E6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				55A8343D1D39573600794370 /* IntroScene.sks */,
+				55A834411D39574C00794370 /* IntroScene.swift */,
+				55482FB11D3949D300B65E65 /* GameScene.sks */,
+				55482FB31D3949D300B65E65 /* GameScene.swift */,
+				5504A4601D3A19DA000F3156 /* InfoScene.sks */,
+				5504A4621D3A19E9000F3156 /* InfoScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55482FAB1D3949D300B65E65 /* NekoIsland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55482FD81D3949D300B65E65 /* Build configuration list for PBXNativeTarget "NekoIsland" */;
+			buildPhases = (
+				55482FA81D3949D300B65E65 /* Sources */,
+				55482FA91D3949D300B65E65 /* Frameworks */,
+				55482FAA1D3949D300B65E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NekoIsland;
+			productName = NekoIsland;
+			productReference = 55482FAC1D3949D300B65E65 /* NekoIsland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55482FC31D3949D300B65E65 /* NekoIslandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55482FDB1D3949D300B65E65 /* Build configuration list for PBXNativeTarget "NekoIslandTests" */;
+			buildPhases = (
+				55482FC01D3949D300B65E65 /* Sources */,
+				55482FC11D3949D300B65E65 /* Frameworks */,
+				55482FC21D3949D300B65E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55482FC61D3949D300B65E65 /* PBXTargetDependency */,
+			);
+			name = NekoIslandTests;
+			productName = NekoIslandTests;
+			productReference = 55482FC41D3949D300B65E65 /* NekoIslandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55482FCE1D3949D300B65E65 /* NekoIslandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55482FDE1D3949D300B65E65 /* Build configuration list for PBXNativeTarget "NekoIslandUITests" */;
+			buildPhases = (
+				55482FCB1D3949D300B65E65 /* Sources */,
+				55482FCC1D3949D300B65E65 /* Frameworks */,
+				55482FCD1D3949D300B65E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55482FD11D3949D300B65E65 /* PBXTargetDependency */,
+			);
+			name = NekoIslandUITests;
+			productName = NekoIslandUITests;
+			productReference = 55482FCF1D3949D300B65E65 /* NekoIslandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55482FA41D3949D300B65E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Makeschool;
+				TargetAttributes = {
+					55482FAB1D3949D300B65E65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HSYD3ZBRT6;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					55482FC31D3949D300B65E65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 55482FAB1D3949D300B65E65;
+					};
+					55482FCE1D3949D300B65E65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 55482FAB1D3949D300B65E65;
+					};
+				};
+			};
+			buildConfigurationList = 55482FA71D3949D300B65E65 /* Build configuration list for PBXProject "NekoIsland" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55482FA31D3949D300B65E65;
+			productRefGroup = 55482FAD1D3949D300B65E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55482FAB1D3949D300B65E65 /* NekoIsland */,
+				55482FC31D3949D300B65E65 /* NekoIslandTests */,
+				55482FCE1D3949D300B65E65 /* NekoIslandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55482FAA1D3949D300B65E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55482FB21D3949D300B65E65 /* GameScene.sks in Resources */,
+				55482FBE1D3949D300B65E65 /* LaunchScreen.storyboard in Resources */,
+				55482FBB1D3949D300B65E65 /* Assets.xcassets in Resources */,
+				55FCED5C1D4FB2A800691723 /* bensound-acousticbreeze.mp3 in Resources */,
+				55482FB91D3949D300B65E65 /* Main.storyboard in Resources */,
+				550E37CC1D55D50100C47804 /* ach.png in Resources */,
+				55A8343E1D39573600794370 /* IntroScene.sks in Resources */,
+				5504A4611D3A19DA000F3156 /* InfoScene.sks in Resources */,
+				55E966821D3F0C970029A4AC /* DeathOverlay.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482FC21D3949D300B65E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482FCD1D3949D300B65E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55482FA81D3949D300B65E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A834421D39574C00794370 /* IntroScene.swift in Sources */,
+				55482FB41D3949D300B65E65 /* GameScene.swift in Sources */,
+				55FCED5E1D4FBDA500691723 /* SKTAudio.swift in Sources */,
+				5504A4631D3A19E9000F3156 /* InfoScene.swift in Sources */,
+				55482FB61D3949D300B65E65 /* GameViewController.swift in Sources */,
+				554622D81D42B8DD0007D260 /* Storage.swift in Sources */,
+				55482FB01D3949D300B65E65 /* AppDelegate.swift in Sources */,
+				55482FE21D394B3700B65E65 /* MSButtonNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482FC01D3949D300B65E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55482FC91D3949D300B65E65 /* NekoIslandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482FCB1D3949D300B65E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55482FD41D3949D300B65E65 /* NekoIslandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55482FC61D3949D300B65E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55482FAB1D3949D300B65E65 /* NekoIsland */;
+			targetProxy = 55482FC51D3949D300B65E65 /* PBXContainerItemProxy */;
+		};
+		55482FD11D3949D300B65E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55482FAB1D3949D300B65E65 /* NekoIsland */;
+			targetProxy = 55482FD01D3949D300B65E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55482FB71D3949D300B65E65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55482FB81D3949D300B65E65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55482FBC1D3949D300B65E65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55482FBD1D3949D300B65E65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55482FD61D3949D300B65E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emily Yu (HSYD3ZBRT6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emily Yu (HSYD3ZBRT6)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55482FD71D3949D300B65E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emily Yu (HSYD3ZBRT6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emily Yu (HSYD3ZBRT6)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55482FD91D3949D300B65E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emily Yu (HSYD3ZBRT6)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Emily Yu (HSYD3ZBRT6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emily Yu (HSYD3ZBRT6)";
+				INFOPLIST_FILE = NekoIsland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.CatIsland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aab2d59c-7c57-4049-9ff4-7bbae2fbda51";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		55482FDA1D3949D300B65E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emily Yu (HSYD3ZBRT6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emily Yu (HSYD3ZBRT6)";
+				INFOPLIST_FILE = NekoIsland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.CatIsland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aab2d59c-7c57-4049-9ff4-7bbae2fbda51";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		55482FDC1D3949D300B65E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = NekoIslandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.NekoIslandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NekoIsland.app/NekoIsland";
+			};
+			name = Debug;
+		};
+		55482FDD1D3949D300B65E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NekoIslandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.NekoIslandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NekoIsland.app/NekoIsland";
+			};
+			name = Release;
+		};
+		55482FDF1D3949D300B65E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = NekoIslandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.NekoIslandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NekoIsland;
+			};
+			name = Debug;
+		};
+		55482FE01D3949D300B65E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NekoIslandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.NekoIslandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NekoIsland;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55482FA71D3949D300B65E65 /* Build configuration list for PBXProject "NekoIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55482FD61D3949D300B65E65 /* Debug */,
+				55482FD71D3949D300B65E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55482FD81D3949D300B65E65 /* Build configuration list for PBXNativeTarget "NekoIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55482FD91D3949D300B65E65 /* Debug */,
+				55482FDA1D3949D300B65E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55482FDB1D3949D300B65E65 /* Build configuration list for PBXNativeTarget "NekoIslandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55482FDC1D3949D300B65E65 /* Debug */,
+				55482FDD1D3949D300B65E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55482FDE1D3949D300B65E65 /* Build configuration list for PBXNativeTarget "NekoIslandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55482FDF1D3949D300B65E65 /* Debug */,
+				55482FE01D3949D300B65E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55482FA41D3949D300B65E65 /* Project object */;
+}
